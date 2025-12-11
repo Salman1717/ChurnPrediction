@@ -165,7 +165,7 @@ with tab1:
 
         # Show top-risk table
         st.markdown("<div class='card'>", unsafe_allow_html=True)
-        st.write("### Top 20 highest-risk customers")
+        st.write("### Top 10 highest-risk customers")
         st.dataframe(df_out.sort_values("churn_prob", ascending=False).head(20))
         st.markdown("</div>", unsafe_allow_html=True)
 

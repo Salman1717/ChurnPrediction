@@ -20,7 +20,7 @@ from xgboost import XGBClassifier
 # 1. LOAD DATA
 # ============================================================
 
-DATA_PATH = "dataset.csv"   # <-- set your local dataset path here
+DATA_PATH = "dataset.csv"   
 
 df = pd.read_csv(DATA_PATH)
 
